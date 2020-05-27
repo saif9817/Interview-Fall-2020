@@ -93,7 +93,7 @@ npm run test
 https://meet.google.com/qcj-nzjp-mzj
 
 ### UOttawa Interviews: (Join this room for your scheduled personal interview if you are from UOttawa)
-meet.google.com/boy-rkom-fpy
+https://meet.google.com/boy-rkom-fpy
 
 ### Carleton Interviews: (Join this room for your scheduled personal interview if you are from Carleton)
-meet.google.com/rky-ycrx-dyn
+https://meet.google.com/rky-ycrx-dyn
