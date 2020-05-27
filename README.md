@@ -90,14 +90,10 @@ npm run test
 
 # Interview Rooms
 ### Technical Interview Room (Join this room if you have questions while doing the interview)
-To join the video meeting, click this link: https://meet.google.com/qkh-qddv-xnu
-Otherwise, to join by phone, dial +1 219-379-3463 and enter this PIN: 957 127 202#
+https://meet.google.com/qcj-nzjp-mzj
 
 ### UOttawa Interviews: (Join this room for your scheduled personal interview if you are from UOttawa)
-To join the video meeting, click this link: https://meet.google.com/bbx-bzcn-rhr
-Otherwise, to join by phone, dial +1 424-646-3907 and enter this PIN: 652 407 399#
-
+meet.google.com/boy-rkom-fpy
 
 ### Carleton Interviews: (Join this room for your scheduled personal interview if you are from Carleton)
-To join the video meeting, click this link: https://meet.google.com/kjo-xanz-dyn
-Otherwise, to join by phone, dial +1 682-549-9740 and enter this PIN: 370 378 353#
+meet.google.com/rky-ycrx-dyn
