@@ -6,7 +6,7 @@ Using a **similar project structure** to the existing one, you will create a new
 
 - Under the src\spaceX folder of the project, you will see that there is a class called Launches that currently allows users to get the launches for a specific year
 
-- In the src\index.ts file, you will see that a get endpoint has been setup for /yearly-launches, that allows the user to get the daily image by using the DailyImage class.
+- In the src\index.ts file, you will see that a get endpoint has been setup for /yearly-launches, that allows the user to get the launches for the current year using the Launches class.
 
 ### Required New Functionality
 
