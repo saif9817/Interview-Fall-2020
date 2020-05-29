@@ -47,7 +47,7 @@ Document all of your functions with statement blocks using the @param and @retur
 #### Test your code!
 Add 2 tests for every function written, one that expects to pass and one that expects to fail. Your tests should go in the tests\spacex-test.ts file. **A minimum of 2 tests is expected**
 #### Submitting
-Once you have completed your task, or the allotted hour has passed, commit your solution to a branch with the branch name in the following format: firstname-lastname, and make a pull request. 
+Before you start your task, **make a fork of this repository**. Once you have completed your task, or the allotted hour has passed, commit your solution to a branch in your forked repo with the branch name in the following format: firstname-lastname, and make a pull request. 
 
 # Setup
 
