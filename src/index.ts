@@ -20,6 +20,15 @@ app.get('/yearly-launches', async (request: any, response: any) => {
   response.send(result);
 });
 
+//Handle get requests for a range 
+app.get('/range-launches', async(request: any, response: any)=>{
+  const range = new Launches();
+  // send in ranges
+  const result = await range.getLaunchesByRange(request.query.start, request.query.end);
+  //send back result
+  response.send(result);
+});
+
 // start the Express server
 app.listen(port, () => {
   // tslint:disable-next-line:no-console

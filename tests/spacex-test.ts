@@ -84,3 +84,55 @@ describe('daily_launch_tests', () => {
           )).toBe(true);
     });
 });
+
+describe('range tests', ()  => {
+  it('test filtering range', async () => {
+    const res = [
+      {
+        flight_number: 1,
+        mission_name: 'Mission 1',
+        rocket: {
+          rocket_name: 'Rocket 1',
+          rocket_type: 'Rocket Type 1',
+        },
+        details: 'space is cool man',
+        launch_success: true,
+        launch_date_utc: "2006-03-24T22:30:00.000Z",
+        extraField1: 1,
+        extraField2: 2,
+        extraField3: 'daslfkasflasfop',
+      },
+    ];
+    const expected = [
+    {
+      flight_number: 1,
+      mission_name: 'Mission 1',
+      rocket_name: 'Rocket 1',
+      rocket_type: 'Rocket Type 1',
+      details: 'space is cool man',
+      launch_success: true,
+      launch_date_utc: "2006-03-24T22:30:00.000Z",
+      },
+    ];
+  });
+  it('test with invalid start', async () => {
+    const launches = new Launches();
+    const result = await launches.getLaunchesByRange('2023-04-02', '2024-02-04');
+    expect(result).toEqual([
+      {
+        error: `invalid start`,
+      },
+    ]);
+  });
+
+  it('test with invalid end', async () => {
+    const launches = new Launches();
+    const result = await launches.getLaunchesByRange('2008-04-02', '2005-02-03');
+    expect(result).toEqual([
+      {
+        error: `invalid end`,
+      },
+    ]);
+  });
+
+});
